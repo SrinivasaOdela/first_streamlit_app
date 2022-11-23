@@ -1,4 +1,4 @@
-/home/appuser/venv/bin/python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 import streamlit as st
 st.title('My Healthy Diner')
 
