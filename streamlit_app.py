@@ -1,7 +1,7 @@
-import streamlit
-streamlit.title('My Healthy Diner')
+import streamlit as st
+st.title('My Healthy Diner')
 
-streamlit.heading('Breakfast Menu')
-streamlit.ul('Omega 3 & Blueberry Oatmeal')
-streamlit.ul('Kale, Spinach & Rocket smoothie')
-streamlit.ul('Hard Boiled free-range eggs')
+st.subheader('Breakfast Menu')
+st.ul('Omega 3 & Blueberry Oatmeal')
+st.ul('Kale, Spinach & Rocket smoothie')
+st.ul('Hard Boiled free-range eggs')
