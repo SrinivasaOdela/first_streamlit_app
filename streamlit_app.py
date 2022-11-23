@@ -18,5 +18,5 @@ st.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawb
 
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 
-#st.dataframe(my_fruit_list)
-st.dataframe(fruits_to_show)
+st.dataframe(my_fruit_list)
+#st.dataframe(fruits_to_show)
