@@ -5,3 +5,5 @@ st.subheader('Breakfast Favorites')
 st.text('🥣 Omega 3 & Blueberry Oatmeal')
 st.text('🥗 Kale, Spinach & Rocket smoothie')
 st.text('🐔 Hard Boiled free-range eggs')
+
+st.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
