@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import requests 
-import snowflake.connector 
+
 
 st.title('My Healthy Diner')
 
@@ -38,6 +38,8 @@ fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 st.dataframe(fruityvice_normalized)
 #########################################
 
+st.stop()
+import snowflake.connector 
 #--------------------------------------------------------------#
 my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
 my_cur = my_cnx.cursor()
