@@ -4,7 +4,7 @@ import pandas as pd
 # Add on package
 import requests
 fruityvice_response = requests.get('https://fruityvice.com/api/fruit/watermelon')
-st.text(fruityvice_response)
+st.text(fruityvice_response.json())
 #########################################
 
 st.title('My Healthy Diner')
