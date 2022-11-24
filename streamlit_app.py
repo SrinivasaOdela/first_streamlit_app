@@ -53,3 +53,6 @@ my_data_rows = my_cur.fetchall()
 st.header("The fruit load list contains:")
 st.dataframe(my_data_rows)
 #--------------------------------------------------------------#
+
+fruit_add = st.text_input('What fruit would you like ADD?','jackfruit')
+st.write('Thanks for adding ', fruit_add)
