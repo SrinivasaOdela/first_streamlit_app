@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
-#########################################
-# Add on package
-import requests
-fruityvice_response = requests.get('https://fruityvice.com/api/fruit/watermelon')
-st.text(fruityvice_response.json())
-#########################################
+import requests 
 
 st.title('My Healthy Diner')
 
@@ -26,3 +21,10 @@ st.dataframe(fruits_to_show)
 
 
 #st.dataframe(my_fruit_list)
+
+#########################################
+# Add on package
+streamlit.header("Fruityvice Fruit Advice!")
+fruityvice_response = requests.get('https://fruityvice.com/api/fruit/watermelon')
+st.text(fruityvice_response.json())
+#########################################
