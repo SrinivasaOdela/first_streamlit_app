@@ -56,3 +56,5 @@ st.dataframe(my_data_rows)
 
 fruit_add = st.text_input('What fruit would you like ADD?','jackfruit')
 st.write('Thanks for adding ', fruit_add)
+
+my_cur.execute("insert into fruit_load_list values ('from st')")
